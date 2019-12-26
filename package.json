@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.4.3",
-    "hypersim-parser": "^0.0.2",
+    "deferinfer": "^1.0.1",
+    "hypersim-parser": "^0.0.3",
     "vue": "^2.6.10",
     "vue-d3-netgraph": "^0.1.0",
     "vue-d3-network": "^0.1.28"
