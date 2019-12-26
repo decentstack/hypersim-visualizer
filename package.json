@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.4.3",
-    "vue": "^2.6.10"
+    "hypersim-parser": "^0.0.2",
+    "vue": "^2.6.10",
+    "vue-d3-netgraph": "^0.1.0",
+    "vue-d3-network": "^0.1.28"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
@@ -32,7 +35,10 @@
       "plugin:vue/essential",
       "@vue/standard"
     ],
-    "rules": {},
+    "rules": {
+      "no-debugger": 0,
+      "no-fallthrough": 0
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
@@ -40,5 +46,18 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentstack/hypersim-visualizer.git"
+  },
+  "author": {
+    "name": "Tony Ivanov",
+    "email": "telamohn@pm.me"
+  },
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/decentstack/hypersim-visualizer/issues"
+  },
+  "homepage": "https://github.com/decentstack/hypersim-visualizer#readme"
 }

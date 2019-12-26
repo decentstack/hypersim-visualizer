@@ -1,28 +1,42 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <samp id="tag"><a href="https://github.com/decentstack/hypersim-visualizer">@decentstack/hypersim-visualizer</a></samp>
+    <NetGraph/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NetGraph from './components/NetGraph.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    NetGraph
   }
 }
 </script>
 
 <style lang="scss">
+body {
+  // background-color: #32383E;
+  // color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+#tag {
+  padding-left: 4px;
+  font-size: 15pt;
+  a {
+    text-decoration: none;
+    color: #2c3e50;
+  }
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
