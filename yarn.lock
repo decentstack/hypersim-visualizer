@@ -6970,6 +6970,13 @@ sass@^1.23.7:
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
 
+save-our-sanity@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/save-our-sanity/-/save-our-sanity-1.0.1.tgz#dba664429648c760f7e8be5ab3944668351b771e"
+  integrity sha512-cISMo5TTEO4JjF/cT1gYl21qd2b9TONHKXc7WUhOW0YgUAtRzoiusP+cotbgdGkW1ONAGdRMckkmHR9jhpA6Mg==
+  dependencies:
+    debug "^4.1.1"
+
 sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
